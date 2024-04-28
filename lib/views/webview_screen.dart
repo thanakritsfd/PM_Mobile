@@ -43,7 +43,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
               savedDir: '/storage/emulated/0/Download/',
               fileName: newFileName,
               showNotification: true,
-              openFileFromNotification: false, // Prevent automatic file opening
+              openFileFromNotification: true,
             );
           } catch (error) {}
         },
